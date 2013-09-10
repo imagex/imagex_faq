@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * imagex_faq_faq.features.inc
+ * imagex_faq.features.inc
  */
 
 /**
