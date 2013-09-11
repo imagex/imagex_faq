@@ -46,14 +46,5 @@ function imagex_faq_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: edit own faq_topic content.
-  $permissions['edit own faq_topic content'] = array(
-    'name' => 'edit own faq_topic content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
   return $permissions;
 }
