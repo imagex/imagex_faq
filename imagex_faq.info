@@ -1,7 +1,7 @@
 name =  FAQ
 description = FAQ Content Type : Title, Question, Answer, URL Redirects, URL path settings, Meta Tags, Topics
 core = 7.x
-package = Features
+package = ImageX
 php = 5.2.4
 version = 7.x-1.0-dev
 project = imagex_faq
