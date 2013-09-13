@@ -1,5 +1,5 @@
 name = FAQ
-description = ImageX FAQ
+description = Enables the capabilities for building an FAQ.
 core = 7.x
 package = ImageX
 php = 5.2.4
