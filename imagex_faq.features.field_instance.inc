@@ -111,7 +111,7 @@ function imagex_faq_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 6,
+        'weight' => 4,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -155,8 +155,8 @@ function imagex_faq_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-faq_topic-field_topics'
-  $field_instances['node-faq_topic-field_topics'] = array(
+  // Exported field_instance: 'node-faq_topic-field_tags'
+  $field_instances['node-faq_topic-field_tags'] = array(
     'bundle' => 'faq_topic',
     'default_value' => NULL,
     'deleted' => 0,
@@ -167,7 +167,7 @@ function imagex_faq_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 3,
+        'weight' => 6,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -177,8 +177,8 @@ function imagex_faq_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_topics',
-    'label' => 'Topics',
+    'field_name' => 'field_tags',
+    'label' => 'Tags',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -200,7 +200,7 @@ function imagex_faq_field_default_field_instances() {
   t('Answer');
   t('Comment');
   t('Question');
-  t('Topics');
+  t('Tags');
 
   return $field_instances;
 }
