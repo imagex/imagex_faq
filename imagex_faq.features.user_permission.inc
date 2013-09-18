@@ -14,7 +14,10 @@ function imagex_faq_user_default_permissions() {
   $permissions['create faq_topic content'] = array(
     'name' => 'create faq_topic content',
     'roles' => array(
-      'administrator' => 'administrator',
+      'Administrator' => 'Administrator',
+      'Content Creator' => 'Content Creator',
+      'Content Manager' => 'Content Manager',
+      'System Administrator' => 'System Administrator',
     ),
     'module' => 'node',
   );
@@ -23,7 +26,8 @@ function imagex_faq_user_default_permissions() {
   $permissions['delete any faq_topic content'] = array(
     'name' => 'delete any faq_topic content',
     'roles' => array(
-      'administrator' => 'administrator',
+      'Administrator' => 'Administrator',
+      'System Administrator' => 'System Administrator',
     ),
     'module' => 'node',
   );
@@ -32,7 +36,8 @@ function imagex_faq_user_default_permissions() {
   $permissions['delete own faq_topic content'] = array(
     'name' => 'delete own faq_topic content',
     'roles' => array(
-      'administrator' => 'administrator',
+      'Administrator' => 'Administrator',
+      'System Administrator' => 'System Administrator',
     ),
     'module' => 'node',
   );
@@ -41,7 +46,10 @@ function imagex_faq_user_default_permissions() {
   $permissions['edit any faq_topic content'] = array(
     'name' => 'edit any faq_topic content',
     'roles' => array(
-      'administrator' => 'administrator',
+      'Administrator' => 'Administrator',
+      'Content Creator' => 'Content Creator',
+      'Content Manager' => 'Content Manager',
+      'System Administrator' => 'System Administrator',
     ),
     'module' => 'node',
   );
