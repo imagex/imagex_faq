@@ -36,6 +36,7 @@ features[user_permission][] = create faq_topic content
 features[user_permission][] = delete any faq_topic content
 features[user_permission][] = delete own faq_topic content
 features[user_permission][] = edit any faq_topic content
+features[user_permission][] = edit own faq_topic content
 features[variable][] = comment_anonymous_faq_topic
 features[variable][] = comment_default_mode_faq_topic
 features[variable][] = comment_default_per_page_faq_topic
