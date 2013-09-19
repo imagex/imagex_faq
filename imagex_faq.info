@@ -8,6 +8,7 @@ project = imagex_faq
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = imagex_common_fields
+dependencies[] = imagex_user_roles_permissions 
 dependencies[] = node
 dependencies[] = panelizer
 dependencies[] = strongarm
