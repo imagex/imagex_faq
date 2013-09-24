@@ -125,7 +125,8 @@ function imagex_faq_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_faq_topic';
   $strongarm->value = array(
-    0 => 'status',
+    0 => 'moderation',
+    1 => 'revision',
   );
   $export['node_options_faq_topic'] = $strongarm;
 
@@ -160,37 +161,7 @@ function imagex_faq_strongarm() {
         'default' => 1,
         'choice' => 1,
       ),
-      'full' => array(
-        'status' => 1,
-        'default' => 1,
-        'choice' => 1,
-      ),
       'teaser' => array(
-        'status' => 1,
-        'default' => 1,
-        'choice' => 1,
-      ),
-      'rss' => array(
-        'status' => 1,
-        'default' => 1,
-        'choice' => 1,
-      ),
-      'search_index' => array(
-        'status' => 1,
-        'default' => 1,
-        'choice' => 1,
-      ),
-      'search_result' => array(
-        'status' => 1,
-        'default' => 1,
-        'choice' => 1,
-      ),
-      'diff_standard' => array(
-        'status' => 1,
-        'default' => 1,
-        'choice' => 1,
-      ),
-      'token' => array(
         'status' => 1,
         'default' => 1,
         'choice' => 1,
