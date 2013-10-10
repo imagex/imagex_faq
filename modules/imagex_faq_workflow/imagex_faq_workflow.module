@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the FAQ Workflow feature.
+ */
+
+include_once 'imagex_faq_workflow.features.inc';
