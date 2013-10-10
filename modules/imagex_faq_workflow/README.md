@@ -1,13 +1,13 @@
 ## FAQ Workflow
 
-Workflow settings for FAQ Content Type
+This extension module integrates with the ImageX [Workflow](http://github.com/imagex/imagex_workflow) component to provide a default publishing and scheduling workflow for FAQ content.
 
-## Dependencies
+### Dependencies
 
 * Contrib: [Ctools] (https://drupal.org/project/ctools) (>= 1.3) 
 * Contrib: [Features] (https://drupal.org/project/features)  (>= 2.0)
 * Contrib: [StrongArm] (https://drupal.org/project/strongarm) (>= 2.0)
-* Feature: [FAQ] (https://github.com/imagex/imagex_faq) 
+* ImageX Component: [FAQ] (https://github.com/imagex/imagex_faq) (>= 7.x-dev) 
 
 ## License
 

@@ -2,7 +2,7 @@
 
 Base definition for 'FAQ' content type.
 
-## Fields
+### Fields
 
 * Title
 * Question
@@ -12,19 +12,20 @@ Base definition for 'FAQ' content type.
 * Meta tags
 * Tags
 
-## Dependencies
+### Dependencies
 
 * Contrib: [Ctools] (https://drupal.org/project/ctools) (>= 1.3) 
 * Contrib: [Features] (https://drupal.org/project/features)  (>= 2.0)
 * Contrib: [StrongArm] (https://drupal.org/project/strongarm) (>= 2.0)
 * Contrib: [Panelizer] (https://drupal.org/project/panelizer) (>= 3.1)
-* Feature: [Common Fields] (https://github.com/imagex/imagex_common_fields)
+* ImageX Component: [Common Fields] (https://github.com/imagex/imagex_common_fields) (>= 7.x-dev)
 
-## Extension Modules
+### Extension Modules
 
-* **imagex_faq_addthis*: Adds addthis field for social media to faq content type.
-* **imagex_faq_permissions*: FAQ specific settings.
-* **imagex_faq_workflow*: Adds workbench and strongarm settings for FAQ content type.
+* **imagex_faq_addthis*: This extension module of the FAQ component integrates [AddThis](http://github.com/imagex/imagex_addthis) Social Media sharing, and its default configuration for FAQ content. 
+* **imagex_faq_permissions*: This extension module of the FAQ component provides default permissions for ImageX’s [User Roles](http://github.com/imagex/imagex_user_roles). These permissions meet the  requirements to be used in conjunction with the ImageX [Workflow](http://github.com/imagex/imagex_workflow).
+* **imagex_faq_workflow*: This extension module integrates with the ImageX [Workflow](http://github.com/imagex/imagex_workflow) component to provide a default publishing and scheduling workflow for Page content.
+
 
 ## License
 

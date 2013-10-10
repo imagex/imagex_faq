@@ -1,12 +1,12 @@
 ## FAQ Permissions
 
-Permissions for FAQ Content Type
+This extension module of the FAQ component provides default permissions for ImageX’s [User Roles](http://github.com/imagex/imagex_user_roles). These permissions meet the  requirements to be used in conjunction with the ImageX [Workflow](http://github.com/imagex/imagex_workflow).
  
-## Dependencies
+### Dependencies
 
 * Contrib: [Features] (https://drupal.org/project/features)  (>= 2.0)
-* Feature: [FAQ] (https://github.com/imagex/imagex_faq) 
-* Feature: [User Roles] (https://github.com/imagex/imagex_user_roles) 
+* ImageX Component: [FAQ] (https://github.com/imagex/imagex_faq) (>= 7.x-dev)
+* ImageX Component: [User Roles] (https://github.com/imagex/imagex_user_roles) (>= 7.x-dev)
 
 ## License
 
