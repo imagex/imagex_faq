@@ -1,4 +1,4 @@
-name = imagex_faq_rss
+name = FAQ RSS
 core = 7.x
 package = ImageX
 version = 7.x-1.0
