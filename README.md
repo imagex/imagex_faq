@@ -22,7 +22,6 @@ Base definition for 'FAQ' content type.
 
 ### Extension Modules
 
-* **imagex_faq_addthis*: This extension module of the FAQ component integrates [AddThis](http://github.com/imagex/imagex_addthis) Social Media sharing, and its default configuration for FAQ content. 
 * **imagex_faq_permissions*: This extension module of the FAQ component provides default permissions for ImageX’s [User Roles](http://github.com/imagex/imagex_user_roles). These permissions meet the  requirements to be used in conjunction with the ImageX [Workflow](http://github.com/imagex/imagex_workflow).
 * **imagex_faq_workflow*: This extension module integrates with the ImageX [Workflow](http://github.com/imagex/imagex_workflow) component to provide a default publishing and scheduling workflow for Page content.
 
