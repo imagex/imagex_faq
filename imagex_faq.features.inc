@@ -22,9 +22,9 @@ function imagex_faq_ctools_plugin_api($module = NULL, $api = NULL) {
 function imagex_faq_node_info() {
   $items = array(
     'faq_topic' => array(
-      'name' => t('FAQ Topic'),
+      'name' => t('Frequently Asked Question'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('Use <em>FAQ</em> to create a frequently asked question and its common response.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
